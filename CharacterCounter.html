@@ -1,0 +1,27 @@
+
+<form method="POST" name="wordcount">
+<script language="JavaScript">
+
+    function countit(){
+
+    /*Word count script
+    Over 400+ free scripts here!
+    */
+
+    var formcontent=document.wordcount.wordcount2.value
+    formcontent=formcontent.split(" ")
+    document.wordcount.wordcount3.value=formcontent.length
+    }
+    </script>     
+<br />
+
+Silahkan Copy dam Paste kalimat atau artikel yang akan di counter (dihitung)
+<br />
+<table border="0" cellpadding="5" cellspacing="0" style="text-align: justify;"><tbody>
+<tr>           <td width="100%"><textarea cols="55" name="wordcount2" rows="22" wrap="virtual"></textarea></td>         </tr>
+<tr>           <td width="100%">
+<input onclick="countit()" type="button" value="Calculate Words" /> <input name="wordcount3" size="20" type="text" />
+</td></tr>
+</tbody></table>
+</form>
+
